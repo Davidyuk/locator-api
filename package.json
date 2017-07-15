@@ -9,7 +9,9 @@
   },
   "babel": {
     "plugins": [
+      "transform-es2015-destructuring",
       "transform-es2015-modules-commonjs",
+      "transform-es2015-parameters",
       "transform-async-to-generator",
       "transform-object-rest-spread",
       "transform-runtime"
@@ -32,7 +34,9 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "babel-plugin-transform-es2015-parameters": "^6.24.1",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "eslint": "^3.19.0",
